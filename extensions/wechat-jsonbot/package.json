@@ -1,0 +1,36 @@
+{
+  "name": "@openclaw/wechat",
+  "version": "2026.2.1",
+  "description": "OpenClaw WeChat channel plugin (json_bot gateway)",
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "openclaw": "workspace:*"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2026.1.26"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ],
+    "channel": {
+      "id": "wechat",
+      "label": "WeChat",
+      "selectionLabel": "WeChat (json_bot)",
+      "detailLabel": "WeChat",
+      "docsPath": "/channels/wechat",
+      "docsLabel": "wechat",
+      "blurb": "WeChat via json_bot webhook + /reply gateway.",
+      "aliases": [
+        "wx"
+      ],
+      "order": 80
+    },
+    "install": {
+      "npmSpec": "@openclaw/wechat",
+      "localPath": "extensions/wechat-jsonbot",
+      "defaultChoice": "npm"
+    }
+  }
+}
