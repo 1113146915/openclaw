@@ -75,4 +75,3 @@ USER.md
 memory/
 .agent/*.json
 !.agent/workflows/
-my.md
