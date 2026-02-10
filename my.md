@@ -16,7 +16,7 @@ cd 目标仓库
 
 # 2. 关联上游原仓库（替换为原作者的仓库地址）
 
-git remote add upstream https://github.com/原作者用户名/目标仓库.git
+git remote add upstream https://github.com/HKUDS/nanobot.git
 
 # 3. 拉取上游仓库的最新代码
 
